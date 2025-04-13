@@ -1,6 +1,6 @@
 "use client";
 
-import { FaHtml5, FaCss3, FaNode, FaReact, FaFigma } from "react-icons/fa";
+import { FaHtml5, FaCss3, FaNode, FaReact, FaFigma, FaGitAlt } from "react-icons/fa";
 import { SiJavascript, SiTypescript, SiArduino, SiTailwindcss, SiNextdotjs } from "react-icons/si";
 
 const about = {
@@ -144,6 +144,10 @@ const skills = {
             icon: <SiArduino />,
             name: "Arduino",
         },
+        {
+            icon: <FaGitAlt />,
+            name: "Git",
+        }
     ]
 };
 
