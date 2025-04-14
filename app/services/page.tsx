@@ -7,25 +7,25 @@ const services = [
     {
         num: "01",
         title: "Web Development",
-        desc: "I build responsive and user-friendly websites using the latest technologies.",
+        desc: "End-to-end website development tailored to your needs — from concept to deployment.",
         href: ""
     },
     {
         num: "02",
-        title: "Mobile Development",
-        desc: "I create mobile applications that provide a seamless user experience.",
+        title: "Front-End Development",
+        desc: "Building responsive, user-friendly interfaces with clean and modern design.",
         href: ""
     },
     {
         num: "03",
-        title: "UI/UX Design",
-        desc: "I design intuitive and engaging user interfaces for web and mobile applications.",
+        title: "Back-End Development",
+        desc: "Developing robust server-side logic, database integration, and application functionality.",
         href: ""
     },
     {
         num: "04",
-        title: "API Development",
-        desc: "I develop RESTful APIs to connect your front-end and back-end systems.",
+        title: "API Integration & Development",
+        desc: "Creating and connecting APIs to ensure seamless data flow between systems and platforms.",
         href: ""
     },
 ];

@@ -44,7 +44,7 @@ const Contacts = () => {
                     <div className="xl:w-[54%] mx-4 order-2 xl:order-none">
                         <form className="flex flex-col bg-[#27272C] gap-6 p-10 rounded-xl" action="">
                             <h3 className="text-3xl text-accent">Let's Work Together</h3>
-                            <p className="text-white/60">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum rem beatae quo dolor!</p>
+                            <p className="text-white/60">For further explanation, please contact me and let's discuss it together.</p>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 <Input type="fisrtname" placeholder="Firstname" />
                                 <Input type="lastname" placeholder="Lastname" />
@@ -62,6 +62,7 @@ const Contacts = () => {
                                         <SelectItem value="est">Web Development</SelectItem>
                                         <SelectItem value="cst">Front End</SelectItem>
                                         <SelectItem value="mst">Back End</SelectItem>
+                                        <SelectItem value="mst">API Development</SelectItem>
                                     </SelectGroup>
                                 </SelectContent>
                             </Select>

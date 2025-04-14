@@ -10,19 +10,19 @@ const Home = () =>{
       <div className="container h-full mx-auto">
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
           <div className="text-center mx-10 xl:text-left order-2 xl:order-none">
-            <span className="text-xl">Software Developer</span>
-            <h1 className="h1 mb-6">Hello I am <br /> 
+            <span className="text-xl">Web Developer</span>
+            <h1 className="h1 mb-6">Hello I'm <br /> 
               <span className="text-accent">Muhammad Faizz</span>
             </h1>
-            <p className="max-w-[500px] mb-9 text-white/80">
-              I excel at crafting elegant digital experiences and I am proficient in various programming languages and technologies.
+            <p className="max-w-[700px] mb-9 text-white/80">
+            I have a strong passion for the world of programming, especially in web development. With skills in system analysis, front-end, and back-end development, I enjoy creating digital solutions that are functional, efficient, and user-friendly. Experienced in leading teams on various projects, I believe that solid leadership and effective teamwork are key to building impactful and reliable tech solutions.
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-4 xl:gap-8">
               <Button 
                 variant="outline" 
                 className="rounded-full uppercase flex items-center gap-2" 
                 size="lg">
-                <a href="/assets/Faizz-CV.pdf" download className="flex items-center gap-2">
+                <a href="https://drive.google.com/file/d/1o2Cz5sEuAUGE6r9T5xYtfT6man1NJxte/view?usp=drive_link" download className="flex items-center gap-2">
                   <FiDownload /> Download CV
                 </a>
               </Button>

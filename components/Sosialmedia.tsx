@@ -2,10 +2,10 @@ import Link from "next/link";
 import { FaGithub, FaLinkedinIn, FaWhatsapp, FaInstagram} from "react-icons/fa";
 
 const socials = [
-    {icon: <FaGithub />, path: ''},
-    {icon: <FaLinkedinIn />, path: ''},
-    {icon: <FaWhatsapp />, path: ''},
-    {icon: <FaInstagram />, path: ''},
+    {icon: <FaGithub />, path: 'https://github.com/FaizzDevs'},
+    {icon: <FaLinkedinIn />, path: 'https://www.linkedin.com/in/muhammad-faiz-al-izza-2171ab29a/'},
+    {icon: <FaWhatsapp />, path: 'https://wa.me/085293387788'},
+    {icon: <FaInstagram />, path: 'https://www.instagram.com/faizalizza_/'},
 ]
 
 interface SosialmediaProps {

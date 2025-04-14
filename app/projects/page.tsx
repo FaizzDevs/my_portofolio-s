@@ -17,7 +17,7 @@ const about = {
         },
         {
             fieldName: "Experience",
-            fieldValue: "1 year",
+            fieldValue: "8 Months",
         },
         {
             fieldName: "Nationality",
@@ -41,37 +41,42 @@ const about = {
 const experience  = {
     icon: '',
     title: "My Experience",
-    desc: "I have worked on various projects, including web development, mobile development, and UI/UX design. I am always eager to learn new technologies and improve my skills.",
+    desc: "I have experience across various fields, including front-end development, customer service, multimedia, and organizational administration. Currently, I’m focusing on my role as a Front-End Developer Intern at Core Initiative while actively growing my skills in technology and programming. With a background as a Database Practicum Teaching Assistant, leader of a robotics organization, and SAR robot builder, I’m used to working in teams, leading projects, and solving challenges with both analytical thinking and creativity. I also participated in the Technocorner UGM competition in the Line Follower Robot division, which strengthened my skills in logic, sensor systems, and robotic control.",
     items: [
         {
-            company: "PT. XYZ",
-            position: "Software Engineer",
-            date: "Jan 2022 - Present",
+            company: "Core Initiative",
+            position: "Front-End Developer Intern Project Based",
+            date: "Apr 2025 - Present",
         },
         {
-            company: "PT. ABC",
-            position: "Web Developer",
-            date: "Jan 2021 - Dec 2021",
+            company: "PT Shopee International Indonesia",
+            position: "CC Inbound Call E-Commerce Vads",
+            date: "Oct 2024 - Feb 2025",
         },
         {
-            company: "E-Commerce Shopee",
-            position: "Intern",
-            date: "Jan 2020 - Dec 2020",
+            company: "Jepara Yogyakarta Family Regional Organization",
+            position: "Multimedia Division",
+            date: "Mar 2023 - Jan 2025",
         },
         {
-            company: "Tech Academy",
-            position: "Teaching Assistant",
-            date: "Jan 2020 - Dec 2020",
+            company: "UTY Creative Hub",
+            position: "Administration",
+            date: "Jul 2023 - Aug 2024",
         },
         {
-            company: "Tech Academy",
-            position: "Teaching Assistant",
-            date: "Jan 2020 - Dec 2020",
+            company: "Mancay Play Store",
+            position: "Senior Customer Service",
+            date: "Apr 2022 - Jul 2024",
         },
         {
-            company: "Tech Academy",
-            position: "Teaching Assistant",
-            date: "Jan 2020 - Dec 2020",
+            company: "Yogyakarta University of Technology",
+            position: "Database System Practicum Teaching Assistant",
+            date: "Sep 2023 - Jan 2024",
+        },
+        {
+            company: "UKM Robotika",
+            position: "Chairman of the Organization",
+            date: "Sep 2022 - Sep 2023",
         }
     ]
 };
@@ -79,22 +84,17 @@ const experience  = {
 const education = {
     icon: '',
     title: "My Education",
-    desc: "I have a degree in Computer Science from XYZ University. I have also completed various online courses and certifications in web development, mobile development, and UI/UX design.",
+    desc: "I completed my Bachelor’s in Informatics at Yogyakarta University of Technology from 2020 to 2024, focusing on technology development and information systems. Prior to that, I studied at MAN 1 Jepara in the field of Mathematics and Natural Sciences from 2017 to 2020, providing me with a strong foundation in exact sciences.",
     items: [
         {
-            institution: "XYZ University",
-            degree: "Bachelor of Computer Science",
-            date: "2018 - 2022",
+            institution: "Yogyakarta University of Technology",
+            degree: "Bachelor of Informatics",
+            date: "2020 - 2024",
         },
         {
-            institution: "ABC Academy",
-            degree: "Web Development Bootcamp",
-            date: "2021 - 2022",
-        },
-        {
-            institution: "Tech Academy",
-            degree: "Mobile Development Bootcamp",
-            date: "2020 - 2021",
+            institution: "MAN 1 Jepara",
+            degree: "Department of Mathematics and Natural Sciences",
+            date: "2017 - 2020",
         },
     ]
 };
@@ -180,7 +180,7 @@ export default function Projects() {
                             <TabsContent value="experience" className="w-full">
                                 <div className="flex flex-col gap-[30px] text-center xl:text-left">
                                     <h3 className="text-3xl font-bold">{experience.title}</h3>
-                                    <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0"> 
+                                    <p className="max-w-[1000px] text-white/60 mx-auto xl:mx-0"> 
                                         {experience.desc}
                                     </p>
                                     <ScrollArea className="h-[400px]">
@@ -189,7 +189,7 @@ export default function Projects() {
                                                 return (
                                                     <li key={index} className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1">
                                                         <span className="text-accent">{item.date}</span>
-                                                        <h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left">{item.position}</h3>
+                                                        <h3 className="text-xl max-w-[500px] min-h-[60px] text-center lg:text-left">{item.position}</h3>
                                                         <div className="flex items-center gap-3">
                                                             <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
                                                             <p className="text-white/60">{item.company}</p>
@@ -204,7 +204,7 @@ export default function Projects() {
                             <TabsContent value="education" className="w-full">
                                 <div className="flex flex-col gap-[30px] text-center xl:text-left">
                                         <h3 className="text-3xl font-bold">{education.title}</h3>
-                                        <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0"> 
+                                        <p className="max-w-[1000px] text-white/60 mx-auto xl:mx-0"> 
                                             {education.desc}
                                         </p>
                                         <ScrollArea className="h-[400px]">
@@ -213,7 +213,7 @@ export default function Projects() {
                                                     return (
                                                         <li key={index} className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1">
                                                             <span className="text-accent">{item.date}</span>
-                                                            <h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left">{item.degree}</h3>
+                                                            <h3 className="text-xl max-w-[500px] min-h-[60px] text-center lg:text-left">{item.degree}</h3>
                                                             <div className="flex items-center gap-3">
                                                                 <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
                                                                 <p className="text-white/60">{item.institution}</p>
@@ -229,7 +229,7 @@ export default function Projects() {
                                 <div className="flex flex-col gap-[30px]">
                                     <div className="flex flex-col gap-[30px] text-center xl:text-left">
                                         <h3 className="text-3xl font-bold">{skills.title}</h3>
-                                        <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">{skills.desc}</p>
+                                        <p className="max-w-[1000px] text-white/60 mx-auto xl:mx-0">{skills.desc}</p>
                                     </div>
                                     <ul className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 xl:grad-[30px]">
                                         {skills.items.map((skill, index) => {
