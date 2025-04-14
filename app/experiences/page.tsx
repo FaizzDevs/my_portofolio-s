@@ -4,6 +4,7 @@
 import { motion } from "framer-motion";
 import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import type { Swiper as SwiperClass } from 'swiper';
 import "swiper/css"
 import {BsGithub} from 'react-icons/bs'
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
@@ -57,7 +58,7 @@ const projects = [
 export default function Experience() {
     const [project, setProject] = useState(projects[0]); 
 
-    const handleSlideChange = (swiper) => {
+    const handleSlideChange = (swiper: SwiperClass) => {
         const currentIndex = swiper.activeIndex;
         setProject(projects[currentIndex]);
     };
