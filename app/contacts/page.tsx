@@ -43,8 +43,8 @@ const Contacts = () => {
                 <div className="flex flex-col xl:flex-row gap-[30px]">
                     <div className="xl:w-[54%] mx-4 order-2 xl:order-none">
                         <form className="flex flex-col bg-[#27272C] gap-6 p-10 rounded-xl" action="">
-                            <h3 className="text-3xl text-accent">Let's Work Together</h3>
-                            <p className="text-white/60">For further explanation, please contact me and let's discuss it together.</p>
+                            <h3 className="text-3xl text-accent">Let`s Work Together</h3>
+                            <p className="text-white/60">For further explanation, please contact me and let`s discuss it together.</p>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 <Input type="fisrtname" placeholder="Firstname" />
                                 <Input type="lastname" placeholder="Lastname" />
