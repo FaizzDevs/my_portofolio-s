@@ -1,7 +1,7 @@
 "use client";
 
 import { FaHtml5, FaCss3, FaNode, FaReact, FaFigma, FaGitAlt } from "react-icons/fa";
-import { SiJavascript, SiTypescript, SiArduino, SiTailwindcss, SiNextdotjs } from "react-icons/si";
+import { SiJavascript, SiTypescript, SiArduino, SiTailwindcss, SiNextdotjs, SiVite } from "react-icons/si";
 
 const about = {
     title: "About Me",
@@ -147,7 +147,11 @@ const skills = {
         {
             icon: <FaGitAlt />,
             name: "Git",
-        }
+        },
+        {
+            icon: <SiVite />,
+            name: "Vite",
+        },
     ]
 };
 
