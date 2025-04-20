@@ -7,7 +7,6 @@ import type { Swiper as SwiperClass } from 'swiper';
 import "swiper/css"
 import {BsGithub} from 'react-icons/bs'
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
-import Link from "next/link"
 import Image from "next/image";
 import WorkSliderBtns from "@/components/WorkSliderBtns";
 
@@ -61,7 +60,7 @@ export default function Experience() {
         const currentIndex = swiper.activeIndex;
         setProject(projects[currentIndex]);
     };
-
+    
     return (
         <motion.section
             initial={{opacity: 0}}
@@ -113,7 +112,12 @@ export default function Experience() {
                                     </TooltipProvider>
                                 </Link> */}
 
-                                <Link href={project.github}>
+                                <a
+                                    href={project.github}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="cursor-pointer"
+                                >
                                     <TooltipProvider delayDuration={100}>
                                         <Tooltip>
                                             <TooltipTrigger className="w-[70px] h-[70px] cursor-pointer rounded-full bg-white/5 flex justify-center items-center group">
@@ -124,7 +128,7 @@ export default function Experience() {
                                             </TooltipContent>
                                         </Tooltip>
                                     </TooltipProvider>
-                                </Link>
+                                </a>
                             </div>
                         </div>
                     </div>
