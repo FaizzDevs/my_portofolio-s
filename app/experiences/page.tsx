@@ -43,6 +43,16 @@ const projects = [
     },
     {
         num: '04',
+        category: 'Payment-Gateway',
+        title: 'project 4',
+        desc: 'Project ini mengintegrasikan layanan Midtrans untuk mendukung proses pembayaran online dengan berbagai metode seperti kartu kredit, transfer bank, e-wallet, dan QRIS. Integrasi dilakukan menggunakan Midtrans API untuk memastikan transaksi berjalan aman, cepat, dan terverifikasi secara real-time.',
+        stack: [{ name: "Next.js" }, { name: "React.js" }, { name: "Javascript" }, { name: "TailwindCSS" }, { name: "Midtrans" }],
+        image: '/assets/payment.png',
+        live: "",
+        github: "https://github.com/FaizzDevs/payment_gateway",
+    },
+    {
+        num: '05',
         category: 'Youtube-Clone',
         title: 'project 4',
         desc: 'YouTube Clone adalah proyek aplikasi web yang meniru fitur inti YouTube, seperti unggah dan pemutaran video, pencarian konten, serta tampilan beranda dinamis. Dibangun dengan teknologi modern seperti React, Next.js, dan Firebase, proyek ini menunjukkan kemampuan dalam pengelolaan media, autentikasi pengguna, dan integrasi database real-time. Fokus utama proyek ini adalah pada performa, UI responsif, dan pengalaman pengguna yang mulus.',

@@ -1,6 +1,6 @@
 "use client";
 
-import { FaHtml5, FaCss3, FaNode, FaReact, FaFigma, FaGitAlt } from "react-icons/fa";
+import { FaHtml5, FaCss3, FaNode, FaReact, FaFigma, FaGitAlt, FaDocker } from "react-icons/fa";
 import { SiJavascript, SiTypescript, SiArduino, SiTailwindcss, SiNextdotjs, SiVite } from "react-icons/si";
 
 const about = {
@@ -17,7 +17,7 @@ const about = {
         },
         {
             fieldName: "Experience",
-            fieldValue: "8 Months",
+            fieldValue: "1 year",
         },
         {
             fieldName: "Nationality",
@@ -28,7 +28,7 @@ const about = {
             fieldValue: "mfaizalizza@gmail.com",
         },
         {
-            fieldName: "Freelance",
+            fieldName: "Freelance & Work",
             fieldValue: "Available",
         },
         {
@@ -152,6 +152,10 @@ const skills = {
             icon: <SiVite />,
             name: "Vite",
         },
+        {
+            icon: <FaDocker />,
+            name: "Docker",
+        }
     ]
 };
 
