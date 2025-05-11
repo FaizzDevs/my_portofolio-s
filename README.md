@@ -11,8 +11,8 @@ Ini adalah proyek web portofolio pribadi yang dibuat menggunakan **React**, **Ty
 - **Tailwind CSS** - Utility-first CSS framework
 
 ✨ Fitur
-Navigasi smooth dan responsif
-Animasi halus antar komponen dan halaman
-Section Proyek, Tentang Saya, Kontak
-Komponen modular dan mudah dikembangkan
-Desain modern dan clean
+- Navigasi smooth dan responsif
+= Animasi halus antar komponen dan halaman
+= Section Proyek, Tentang Saya, Kontak
+= Komponen modular dan mudah dikembangkan
+= Desain modern dan clean
