@@ -1,6 +1,6 @@
 "use client";
 
-import { FaHtml5, FaCss3, FaNode, FaReact, FaFigma, FaGitAlt, FaDocker } from "react-icons/fa";
+import { FaHtml5, FaCss3, FaNode, FaReact, FaFigma, FaGitAlt, FaDocker, FaVuejs } from "react-icons/fa";
 import { SiJavascript, SiTypescript, SiArduino, SiTailwindcss, SiNextdotjs, SiVite } from "react-icons/si";
 
 const about = {
@@ -43,11 +43,11 @@ const experience  = {
     title: "My Experience",
     desc: "I have experience across various fields, including front-end development, customer service, multimedia, and organizational administration. Currently, I’m focusing on my role as a Front-End Developer Intern at Core Initiative while actively growing my skills in technology and programming. With a background as a Database Practicum Teaching Assistant, leader of a robotics organization, and SAR robot builder, I’m used to working in teams, leading projects, and solving challenges with both analytical thinking and creativity. I also participated in the Technocorner UGM competition in the Line Follower Robot division, which strengthened my skills in logic, sensor systems, and robotic control.",
     items: [
-        // {
-        //     company: "Core Initiative",
-        //     position: "Front-End Developer Intern Project Based",
-        //     date: "Apr 2025 - Present",
-        // },
+        {
+            company: "Core Initiative",
+            position: "Front-End Developer Intern Project Based",
+            date: "Apr 2025 - Mei 2025",
+        },
         {
             company: "PT Shopee International Indonesia",
             position: "CC Inbound Call E-Commerce Vads",
@@ -155,6 +155,10 @@ const skills = {
         {
             icon: <FaDocker />,
             name: "Docker",
+        },
+        {
+            icon: <FaVuejs />,
+            name: "Vue.JS",
         }
     ]
 };
