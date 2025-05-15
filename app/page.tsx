@@ -22,7 +22,7 @@ const Home = () =>{
                 variant="outline" 
                 className="rounded-full uppercase flex items-center gap-2" 
                 size="lg">
-                <a href="https://drive.google.com/file/d/1o2Cz5sEuAUGE6r9T5xYtfT6man1NJxte/view?usp=drive_link" download className="flex items-center gap-2">
+                <a href="https://drive.google.com/file/d/19GjzEkoaTgxPyNjkbQWLHJjqSjYf7CtD/view?usp=sharing" download className="flex items-center gap-2">
                   <FiDownload /> Download CV
                 </a>
               </Button>
