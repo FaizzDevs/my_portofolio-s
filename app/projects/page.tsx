@@ -1,7 +1,7 @@
 "use client";
 
 import { FaHtml5, FaCss3, FaNode, FaReact, FaFigma, FaGitAlt, FaDocker, FaVuejs } from "react-icons/fa";
-import { SiJavascript, SiTypescript, SiArduino, SiTailwindcss, SiNextdotjs, SiVite } from "react-icons/si";
+import { SiJavascript, SiTypescript, SiArduino, SiTailwindcss, SiNextdotjs, SiVite, SiMysql, SiPostgresql } from "react-icons/si";
 
 const about = {
     title: "About Me",
@@ -159,6 +159,14 @@ const skills = {
         {
             icon: <FaVuejs />,
             name: "Vue.JS",
+        },
+        {
+            icon: <SiMysql />,
+            name: "MySQL",
+        },
+        {
+            icon: <SiPostgresql />,
+            name: "PostgreSQL",
         }
     ]
 };
