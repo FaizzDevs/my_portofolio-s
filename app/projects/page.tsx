@@ -49,8 +49,8 @@ const experience  = {
             date: "Apr 2025 - Mei 2025",
         },
         {
-            company: "PT Shopee International Indonesia",
-            position: "CC Inbound Call E-Commerce Vads",
+            company: "PT. Shopee International Indonesia",
+            position: "CC Inbound Call",
             date: "Oct 2024 - Feb 2025",
         },
         {
