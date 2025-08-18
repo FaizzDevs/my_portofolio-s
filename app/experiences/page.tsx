@@ -77,8 +77,8 @@ const projects = [
         title: 'project 7',
         desc: 'An interactive digital wedding invitation featuring floral animations, background music, dynamic RSVP with API integration, and a fully responsive, mobile-first design. Optimized for performance and elegant user experience.',
         stack: [{ name: "Next.js" }, { name: "React.js" }, { name: "Framer Motion" }, { name: "Tailwind CSS" }],
-        image: '/assets/digital_invitation.png',
-        live: "",
+        image: '/assets/wedding_invitation.png',
+        live: "https://digital-wedding-invitation-henna.vercel.app/design/1",
         github: "",
     },
 ]
