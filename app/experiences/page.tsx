@@ -130,7 +130,12 @@ export default function Experience() {
                             <div className="border border-white/20"></div>
 
                             <div className="flex items-center gap-4">
-                                <Link href={project.live} className="cursor-pointer">
+                                <a 
+                                    href={project.github}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="cursor-pointer"
+                                >
                                     <TooltipProvider delayDuration={100}>
                                         <Tooltip>
                                             <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
@@ -141,7 +146,7 @@ export default function Experience() {
                                             </TooltipContent>
                                         </Tooltip>
                                     </TooltipProvider>
-                                </Link>
+                                </a>
 
                                 <a
                                     href={project.github}
