@@ -137,7 +137,7 @@ export default function Experience() {
                                 >
                                     <TooltipProvider delayDuration={100}>
                                         <Tooltip>
-                                            <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
+                                            <TooltipTrigger className="w-[70px] h-[70px] cursor-pointer rounded-full bg-white/5 flex justify-center items-center group">
                                                 <BsArrowUpRight className="text-white text-2xl group-hover:text-accent" />
                                             </TooltipTrigger>
                                             <TooltipContent>
