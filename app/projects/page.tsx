@@ -44,6 +44,11 @@ const experience  = {
     desc: "I have experience across various fields, including front-end development, customer service, multimedia, and organizational administration. Currently, I’m focusing on my role as a Front-End Developer Intern at Core Initiative while actively growing my skills in technology and programming. With a background as a Database Practicum Teaching Assistant, leader of a robotics organization, and SAR robot builder, I’m used to working in teams, leading projects, and solving challenges with both analytical thinking and creativity. I also participated in the Technocorner UGM competition in the Line Follower Robot division, which strengthened my skills in logic, sensor systems, and robotic control.",
     items: [
         {
+            company: "-",
+            position: "Freelancer Full-Stack Developer",
+            date: "Mei 2025 - Present",
+        },
+        {
             company: "Core Initiative",
             position: "Front-End Developer Intern Project Based",
             date: "Apr 2025 - Mei 2025",
