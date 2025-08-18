@@ -5,10 +5,11 @@ import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import type { Swiper as SwiperClass } from 'swiper';
 import "swiper/css"
-import {BsGithub} from 'react-icons/bs'
+import {BsArrowUpRight, BsGithub} from 'react-icons/bs'
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 import Image from "next/image";
 import WorkSliderBtns from "@/components/WorkSliderBtns";
+import Link from "next/link";
 
 const projects = [
     {
@@ -129,7 +130,7 @@ export default function Experience() {
                             <div className="border border-white/20"></div>
 
                             <div className="flex items-center gap-4">
-                                {/* <Link href={project.live} className="cursor-pointer">
+                                <Link href={project.live} className="cursor-pointer">
                                     <TooltipProvider delayDuration={100}>
                                         <Tooltip>
                                             <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
@@ -140,7 +141,7 @@ export default function Experience() {
                                             </TooltipContent>
                                         </Tooltip>
                                     </TooltipProvider>
-                                </Link> */}
+                                </Link>
 
                                 <a
                                     href={project.github}
