@@ -9,7 +9,6 @@ import {BsArrowUpRight, BsGithub} from 'react-icons/bs'
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 import Image from "next/image";
 import WorkSliderBtns from "@/components/WorkSliderBtns";
-import Link from "next/link";
 
 const projects = [
     {
@@ -131,7 +130,7 @@ export default function Experience() {
 
                             <div className="flex items-center gap-4">
                                 <a 
-                                    href={project.github}
+                                    href={project.live}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="cursor-pointer"
